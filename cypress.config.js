@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    pageLoadTimeout:60000,
+    pageLoadTimeout:10000,
     chromeWebSecurity:false,
     failOnStatusCode:false,
     "includeShadowDom":true
